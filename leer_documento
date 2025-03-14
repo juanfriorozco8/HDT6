@@ -1,0 +1,9 @@
+Complejidades:
+HashMap + sort() = O(nlogn)
+TreeMap = O(n)
+LinkedHashMap = O(nlogn)
+
+Justificacion de eleccion de la coloceccion del JCF:
+Elegí ArrayList para guardar la colección de Pokémon del usuario porque es una opción práctica 
+y eficiente. No es una estructura complicada, pero funciona bien para lo que necesitamos: almacenar Pokémon, buscarlos y ordenarlos cuando haga falta. Como la cantidad de Pokémon en la colección del 
+usuario no será enorme, recorrer la lista para verificar duplicados no representa un problema. Además, cuando es necesario ordenarlos por tipo, ArrayList permite hacerlo sin mucha dificultad. 
